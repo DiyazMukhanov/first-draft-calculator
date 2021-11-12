@@ -1,0 +1,60 @@
+body{
+    display: flex;
+    justify-content: center;
+}
+
+.calculator-container{
+    border: solid red 1px;
+    margin-top: 2rem;
+    height: 35rem;
+    width: 20rem;
+    opacity: 1;
+    
+}
+
+.top-display{
+    border: solid brown 1px;
+    height: 12rem;
+}
+
+.calculator-buttons{
+    border: solid blue 1px;
+    height: 21rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding-top: 2rem;
+    
+}
+
+.button-level-1,
+.button-level-2,
+.button-level-3,
+.button-level-4,
+.button-level-5{
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+
+.sign,
+.number{
+    border: solid green 1px;
+    padding: 1rem;
+    text-align: center;
+    border-radius: 3rem;
+    font-size: 1.2rem;
+    margin-top: 0.5rem;
+}
+
+.sign{
+    color: #008000;
+}
+
+
+.top-display{
+    text-align: right;
+}
+.result {
+    font-size: 2rem;
+}
