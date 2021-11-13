@@ -1,29 +1,34 @@
 body{
     display: flex;
     justify-content: center;
+    
 }
 
 .calculator-container{
-    border: solid red 1px;
+    border: solid #b8b894 2px;
     margin-top: 2rem;
-    height: 35rem;
+    height: 40rem;
     width: 20rem;
     opacity: 1;
+    background-color: #fff7e6;
     
 }
 
 .top-display{
-    border: solid brown 1px;
+   
     height: 12rem;
 }
 
 .calculator-buttons{
-    border: solid blue 1px;
+    border-top: solid #1f2e2e .5px;
     height: 21rem;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
     padding-top: 2rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    font-family: 'Roboto', sans-serif;
     
 }
 
@@ -39,22 +44,46 @@ body{
 
 .sign,
 .number{
-    border: solid green 1px;
+    
     padding: 1rem;
     text-align: center;
     border-radius: 3rem;
     font-size: 1.2rem;
     margin-top: 0.5rem;
+    cursor: pointer;
+    background-color: #eaeae1;
 }
+
+.sign:active{
+    font-size: .8rem;
+}
+
+.number:active{
+    font-size: .8rem;
+}
+
 
 .sign{
     color: #008000;
+    font-weight: bolder;
 }
 
+.sign:hover{
+    background-color: #3c5d5d;
+    color: white;
+}
+
+.number:hover{
+    background-color: #3c5d5d;
+    color: white;
+}
 
 .top-display{
     text-align: right;
 }
 .result {
     font-size: 2rem;
+    font-weight: 300;
+    margin-left: 2rem;
+    width: 80%;
 }
